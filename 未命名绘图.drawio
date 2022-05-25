@@ -1,18 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T14:35:59.821Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="K8d1H7RZe6QmFsfXjpgs" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-25T03:45:43.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="sYzx1iZ3QTql7fv0PiZU" version="18.1.2" type="github">
   <diagram id="XjVkoh3s6qNT3mLwqElE" name="第 1 页">
-    <mxGraphModel dx="1697" dy="917" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1697" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EwMLj1MMuvyPxPRpaQWR-1" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="210" y="190" width="500" height="450" as="geometry" />
+        <mxCell id="EwMLj1MMuvyPxPRpaQWR-1" value="" style="group;fontStyle=1" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="90" y="50" width="500" height="450" as="geometry" />
         </mxCell>
         <mxCell id="jYE5WnwlVPZ0vAVxvm49-1" value="浏览器" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;fontSize=14;fontStyle=1" parent="EwMLj1MMuvyPxPRpaQWR-1" vertex="1">
           <mxGeometry width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jYE5WnwlVPZ0vAVxvm49-2" value="" style="endArrow=none;html=1;rounded=0;dashed=1;fontFamily=Lucida Console;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;strokeWidth=3;" parent="EwMLj1MMuvyPxPRpaQWR-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="450" as="sourcePoint" />
+            <mxPoint x="60" y="470" as="sourcePoint" />
             <mxPoint x="59.5" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -21,7 +21,7 @@
         </mxCell>
         <mxCell id="jYE5WnwlVPZ0vAVxvm49-4" value="" style="endArrow=none;html=1;rounded=0;dashed=1;fontFamily=Lucida Console;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;strokeWidth=3;" parent="EwMLj1MMuvyPxPRpaQWR-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="450" as="sourcePoint" />
+            <mxPoint x="330" y="470" as="sourcePoint" />
             <mxPoint x="329.5" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -43,13 +43,13 @@
             <mxPoint x="330" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jYE5WnwlVPZ0vAVxvm49-8" value="请求一：登录认证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" parent="EwMLj1MMuvyPxPRpaQWR-1" vertex="1">
+        <mxCell id="jYE5WnwlVPZ0vAVxvm49-8" value="登录认证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" parent="EwMLj1MMuvyPxPRpaQWR-1" vertex="1">
           <mxGeometry x="130" y="100" width="119" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jYE5WnwlVPZ0vAVxvm49-9" value="返回cookie(sessionId)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" parent="EwMLj1MMuvyPxPRpaQWR-1" vertex="1">
           <mxGeometry x="94" y="200" width="191" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jYE5WnwlVPZ0vAVxvm49-10" value="请求二：查看订单详情+携带cookie(sessionId)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=10;fontStyle=1" parent="EwMLj1MMuvyPxPRpaQWR-1" vertex="1">
+        <mxCell id="jYE5WnwlVPZ0vAVxvm49-10" value="请求API时携带cookie(sessionId)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=10;fontStyle=1" parent="EwMLj1MMuvyPxPRpaQWR-1" vertex="1">
           <mxGeometry x="74.5" y="300" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jYE5WnwlVPZ0vAVxvm49-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" parent="EwMLj1MMuvyPxPRpaQWR-1" edge="1">
@@ -79,6 +79,100 @@
         </mxCell>
         <mxCell id="jYE5WnwlVPZ0vAVxvm49-14" value="取出sessionId&lt;br style=&quot;font-size: 14px;&quot;&gt;判断具体用户" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" parent="EwMLj1MMuvyPxPRpaQWR-1" vertex="1">
           <mxGeometry x="390" y="360" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-19" value="" style="endArrow=none;html=1;rounded=0;targetPerimeterSpacing=0;startArrow=classic;startFill=1;endFill=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" edge="1" parent="EwMLj1MMuvyPxPRpaQWR-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="430" as="sourcePoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-20" value="返回数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" vertex="1" parent="EwMLj1MMuvyPxPRpaQWR-1">
+          <mxGeometry x="94" y="400" width="191" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-1" value="" style="group;fontStyle=1;strokeWidth=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="610" width="580" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-2" value="浏览器" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;fontSize=14;fontStyle=1" vertex="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-4" value="服务器" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;fontSize=14;fontStyle=1" vertex="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry x="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-5" value="" style="endArrow=none;html=1;rounded=0;dashed=1;fontFamily=Lucida Console;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;strokeWidth=3;" edge="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="470" as="sourcePoint" />
+            <mxPoint x="329.5" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-6" value="" style="endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=0;startArrow=none;startFill=0;endFill=1;fontFamily=Lucida Console;fontSize=14;fontStyle=1" edge="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="130" as="sourcePoint" />
+            <mxPoint x="330" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-7" value="" style="endArrow=none;html=1;rounded=0;targetPerimeterSpacing=0;startArrow=classic;startFill=1;endFill=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" edge="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="230" as="sourcePoint" />
+            <mxPoint x="330" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-8" value="" style="endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=0;startArrow=none;startFill=0;endFill=1;fontFamily=Lucida Console;fontSize=14;fontStyle=1" edge="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="330" as="sourcePoint" />
+            <mxPoint x="330" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-9" value="登录认证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" vertex="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry x="130" y="100" width="119" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-10" value="返回token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" vertex="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry x="94" y="200" width="191" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-11" value="请求API时携带token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" vertex="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry x="74.5" y="300" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" edge="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="150" as="sourcePoint" />
+            <mxPoint x="330" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="140" />
+              <mxPoint x="400" y="200" />
+              <mxPoint x="370" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-13" value="根据登录凭证生成数字签名，加密后得到字符串作为token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" vertex="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry x="400" y="150" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" edge="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="350" as="sourcePoint" />
+            <mxPoint x="330" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="340" />
+              <mxPoint x="400" y="400" />
+              <mxPoint x="370" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-15" value="拿到token，解密并验证数字签名，判断其有效性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" vertex="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry x="400" y="360" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-17" value="" style="endArrow=none;html=1;rounded=0;targetPerimeterSpacing=0;startArrow=classic;startFill=1;endFill=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" edge="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="430" as="sourcePoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-18" value="返回数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=14;fontStyle=1" vertex="1" parent="dwg1_KrbQBoSWfs_JqFU-1">
+          <mxGeometry x="94" y="400" width="191" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dwg1_KrbQBoSWfs_JqFU-3" value="" style="endArrow=none;html=1;rounded=0;dashed=1;fontFamily=Lucida Console;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1080" as="sourcePoint" />
+            <mxPoint x="180" y="680" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
