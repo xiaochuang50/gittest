@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T14:03:03.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="RzgHAcbu50nwDQ7tkVFJ" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-27T14:26:36.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ltN2nazq9IxECBhIcEFU" version="18.1.2" type="github">
   <diagram id="XjVkoh3s6qNT3mLwqElE" name="第 1 页">
-    <mxGraphModel dx="1697" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1697" dy="917" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -194,6 +194,101 @@
         </mxCell>
         <mxCell id="j4RgRAAIpv4N41BMO8a8-4" value="重量级锁" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="1210" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="j4RgRAAIpv4N41BMO8a8-10" target="j4RgRAAIpv4N41BMO8a8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-10" value="类加载校验" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=14;fontStyle=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="101" y="1342" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="j4RgRAAIpv4N41BMO8a8-11" target="j4RgRAAIpv4N41BMO8a8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="j4RgRAAIpv4N41BMO8a8-11" target="j4RgRAAIpv4N41BMO8a8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-11" value="是否已加载？" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="86" y="1420" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="j4RgRAAIpv4N41BMO8a8-12" target="j4RgRAAIpv4N41BMO8a8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-12" value="分配内存" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="101" y="1501" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="j4RgRAAIpv4N41BMO8a8-13" target="j4RgRAAIpv4N41BMO8a8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-13" value="属性赋初始值" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="101" y="1581" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j4RgRAAIpv4N41BMO8a8-14" target="j4RgRAAIpv4N41BMO8a8-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="151" y="1734.4286422729492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-14" value="设置对象头" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="101" y="1661" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-15" value="执行init()方法" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="94" y="1744" width="114" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="j4RgRAAIpv4N41BMO8a8-17" target="j4RgRAAIpv4N41BMO8a8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-17" value="加载类" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=14;fontStyle=0;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1422.5" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-26" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="133" y="1471" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-27" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="208" y="1420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="j4RgRAAIpv4N41BMO8a8-29" target="j4RgRAAIpv4N41BMO8a8-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-29" value="线程进入" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=14;fontStyle=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1342" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="j4RgRAAIpv4N41BMO8a8-32" target="j4RgRAAIpv4N41BMO8a8-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="j4RgRAAIpv4N41BMO8a8-32" target="j4RgRAAIpv4N41BMO8a8-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-32" value="是否同一线程？" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="475" y="1420" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-34" value="分配内存" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1591" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-41" value="升级成轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=14;fontStyle=0;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="652" y="1422.5" width="107" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-42" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="519" y="1471" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-43" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="597" y="1420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="j4RgRAAIpv4N41BMO8a8-44" target="j4RgRAAIpv4N41BMO8a8-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="j4RgRAAIpv4N41BMO8a8-44" target="j4RgRAAIpv4N41BMO8a8-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-44" value="是否获取过锁？" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="475" y="1505" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-46" value="标志位设为1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=14;fontStyle=0;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="652" y="1507.5" width="107" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-51" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="519" y="1557.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j4RgRAAIpv4N41BMO8a8-53" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="597" y="1505" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
