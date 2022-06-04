@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-04T14:29:42.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="WIoT0KRqP8yC8xEjkpQn" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-04T14:41:42.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="WwoDyN_6zosgghTZGd2m" version="18.1.3" type="github">
   <diagram id="XjVkoh3s6qNT3mLwqElE" name="第 1 页">
-    <mxGraphModel dx="377" dy="233" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="785" dy="485" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -290,38 +290,44 @@
         <mxCell id="j4RgRAAIpv4N41BMO8a8-53" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Lucida Console;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="597" y="1505" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ydxw--3r8pnDjbfjs-fC-1" value="线程栈&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="118" y="1901" width="402" height="294" as="geometry" />
+        <mxCell id="Ydxw--3r8pnDjbfjs-fC-1" value="线程栈&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lucida Console;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="172" y="1941" width="339" height="254" as="geometry" />
         </mxCell>
-        <mxCell id="Ydxw--3r8pnDjbfjs-fC-2" value="Lock Record&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="199" y="1957" width="308" height="230" as="geometry" />
+        <mxCell id="Ydxw--3r8pnDjbfjs-fC-2" value="Lock Record&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lucida Console;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="203" y="1988" width="299" height="199" as="geometry" />
         </mxCell>
-        <mxCell id="Ydxw--3r8pnDjbfjs-fC-4" value="对象&lt;br&gt;对象头 —— Mark Word&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="223" y="2030" width="268" height="101" as="geometry" />
+        <mxCell id="Ydxw--3r8pnDjbfjs-fC-4" value="对象&lt;br style=&quot;font-size: 14px;&quot;&gt;对象头 —— Mark Word&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lucida Console;fillColor=#d5e8d4;strokeColor=#82b366;glass=0;sketch=0;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="223" y="2048" width="268" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="Ydxw--3r8pnDjbfjs-fC-6" value="hashcode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="2089" width="60" height="28" as="geometry" />
+        <mxCell id="Ydxw--3r8pnDjbfjs-fC-6" value="hashcode" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Lucida Console;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="239" y="2097" width="60" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="Ydxw--3r8pnDjbfjs-fC-7" value="age" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="2089" width="60" height="28" as="geometry" />
+        <mxCell id="Ydxw--3r8pnDjbfjs-fC-7" value="age" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Lucida Console;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="299" y="2097" width="60" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="Ydxw--3r8pnDjbfjs-fC-8" value="0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="2089" width="60" height="28" as="geometry" />
+        <mxCell id="Ydxw--3r8pnDjbfjs-fC-8" value="0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Lucida Console;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="359" y="2097" width="60" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="Ydxw--3r8pnDjbfjs-fC-9" value="00" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="2089" width="60" height="28" as="geometry" />
+        <mxCell id="Ydxw--3r8pnDjbfjs-fC-9" value="00" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Lucida Console;fillColor=#E1D5E7;strokeColor=#9673a6;sketch=1;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="419" y="2097" width="60" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="Ydxw--3r8pnDjbfjs-fC-11" value="owner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ydxw--3r8pnDjbfjs-fC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=10;" edge="1" parent="1" source="Ydxw--3r8pnDjbfjs-fC-11" target="Ydxw--3r8pnDjbfjs-fC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydxw--3r8pnDjbfjs-fC-11" value="owner" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lucida Console;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="223" y="2145" width="268" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="Ydxw--3r8pnDjbfjs-fC-12" value="&lt;span style=&quot;&quot;&gt;对象&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;对象头 —— Mark Word&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="567" y="1993" width="159" height="60" as="geometry" />
+        <mxCell id="Ydxw--3r8pnDjbfjs-fC-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;对象&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;对象头 —— Mark Word&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lucida Console;fillColor=#d5e8d4;strokeColor=#82b366;sketch=0;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="543" y="2044.5" width="231" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="Ydxw--3r8pnDjbfjs-fC-13" value="指向Lock Record 指针" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="567" y="2053" width="95" height="39" as="geometry" />
+        <mxCell id="Ydxw--3r8pnDjbfjs-fC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=10;" edge="1" parent="1" source="Ydxw--3r8pnDjbfjs-fC-13" target="Ydxw--3r8pnDjbfjs-fC-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ydxw--3r8pnDjbfjs-fC-14" value="00" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="662" y="2053" width="64" height="39" as="geometry" />
+        <mxCell id="Ydxw--3r8pnDjbfjs-fC-13" value="指向Lock Record 指针" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lucida Console;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="543" y="2091.5" width="167" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="Ydxw--3r8pnDjbfjs-fC-14" value="00" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lucida Console;fillColor=#E1D5E7;strokeColor=#9673a6;sketch=1;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="710" y="2091.5" width="64" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
